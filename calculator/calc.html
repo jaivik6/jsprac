@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="calc.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="input">
+            <input type="text" id="imp">
+        </div>
+        <div>
+            <div class="row1">
+                <button class="l" onclick="display('7')">7</button>
+                <button class="l" onclick="display('8')">8</button>
+                <button class="l" onclick="display('9')">9</button>
+                <button class="l" onclick="display('/')"><i class="fa-solid fa-divide"></i></button>
+            </div>
+            <div class="row2">
+                <button class="l" onclick="display('4')">4</button>
+                <button class="l" onclick="display('5')">5</button>
+                <button class="l" onclick="display('6')">6</button>
+                 <button class="l" onclick="display('*')"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="row3">
+                <button class="l" onclick="display('3')">3</button>
+                <button class="l" onclick="display('2')">2</button>
+                <button class="l" onclick="display('1')">1</button>
+                <button class="l" onclick="display('-')"><i class="fa-solid fa-minus"></i></button>
+            </div>
+            <div class="row4">
+                <button class="l" onclick="display('0')">0</button>
+                <button class="l" onclick="clearscr()">AC</button>
+                <button class="l" onclick="solve()"><i class="fa-solid fa-equals"></i></button>
+                <button class="l" onclick="display('+')"><i class="fa-solid fa-plus"></i></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

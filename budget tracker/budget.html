@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="budget.js"></script>
+    <link rel="stylesheet" href="budget.css">
+</head>
+<body>
+    <div class="main">
+        <h3 class="j">expence tracker</h3>
+        <div class="h">
+        <h2>your balance:</h2>
+<h2 id="t"></h2>
+</div>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6 i" >
+                <h4>income</h4>
+                <p id="income"></p>
+            </div>
+            <div class="col-md-6 e">
+                <h4>expence</h4>
+                <p id="expence"></p>
+            </div>
+        </div>
+    </div>
+    <div class="history">
+        <h3>history</h3>
+        <ul id="history"></ul>
+    </div>
+    <div class="form">
+        <h3>Add New Transaction</h3>
+    <label>title</label>
+    <input type="text" id="b"><br>
+    <label>amount</label>
+    <input type="text" id="d"><br>
+    <button class="button" onclick="bill()">add bill</button>
+</div>
+</div>
+</body>
+</html>

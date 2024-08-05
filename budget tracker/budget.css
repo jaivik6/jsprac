@@ -1,0 +1,50 @@
+.j{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.history{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main{
+    border: 2px black solid;
+    padding-bottom: 20%;
+    
+}
+.button{
+    background-color: burlywood;
+    color: aqua;
+}
+.e{
+padding-left: 20px;
+background-color: bisque;
+}
+.i{
+padding-left: 20px;
+background-color: bisque;
+border-right: 2px solid black;
+}
+.h{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
